@@ -10,12 +10,13 @@ class App extends React.Component {
       <React.Fragment>
         <div className="catch-of-the-day">
           <div className="menu">
-            <Header />
+            <Header tagline='CodeMeKathy' />
           </div>
-          {/* <Inventory/> */}
+          <Order />
+          <Inventory/>
         </div>
-        {/* <StorePicker /> */}
-        {/* <Order /> */}
+
+
       </React.Fragment>
     )
   }
